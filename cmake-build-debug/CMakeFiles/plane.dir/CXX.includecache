@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mary/CLionProjects/plane/BaseComposite.h
+list
+-
+i_store_luggage.h
+/home/mary/CLionProjects/plane/i_store_luggage.h
+Passenger.h
+/home/mary/CLionProjects/plane/Passenger.h
+
+/home/mary/CLionProjects/plane/Passenger.h
+i_store_luggage.h
+/home/mary/CLionProjects/plane/i_store_luggage.h
+
+/home/mary/CLionProjects/plane/Plane.cpp
+iostream
+-
+Plane.h
+/home/mary/CLionProjects/plane/Plane.h
+
+/home/mary/CLionProjects/plane/Plane.h
+BaseComposite.h
+/home/mary/CLionProjects/plane/BaseComposite.h
+list
+-
+
+/home/mary/CLionProjects/plane/i_store_luggage.h
+glob.h
+-
+string
+-
+
